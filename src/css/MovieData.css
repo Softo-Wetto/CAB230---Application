@@ -1,0 +1,50 @@
+.movie-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .movie-data img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .movie-data h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .movie-data p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .movie-data ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .movie-data ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .movie-data ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .movie-data ul li:hover {
+    background-color: #555;
+  }
+  

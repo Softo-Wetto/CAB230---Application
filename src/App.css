@@ -1,0 +1,126 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.back-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0062cc;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.button-group {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.carousel-img {
+  width: 100%;
+  height: auto;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.ag-theme-balham {
+  width: 100%;
+}
+
+/* Define breakpoint for small screens */
+@media screen and (max-width: 768px) {
+  .ag-header-cell-label,
+  .ag-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* navbar styles */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  color: #f36f21;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 0.5rem;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #f36f21;
+}
+
+.btn-link {
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn-link:hover {
+  color: #f36f21;
+}
+
+/* responsive styles */
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+}
